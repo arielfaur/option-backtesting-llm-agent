@@ -1,0 +1,8 @@
+streamlit
+openai
+llama-index
+llama-index-llms-nvidia
+llama-index-llms-openai 
+llama-index-llms-openai-like
+llama-index-embeddings-huggingface
+nltk
