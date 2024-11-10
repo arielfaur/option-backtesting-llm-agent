@@ -17,6 +17,9 @@ from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.agent import ReActAgent
 from sqlalchemy import create_engine
 
+# disable warning: https://stackoverflow.com/questions/62691279/how-to-disable-tokenizers-parallelism-true-false-warning
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 os.environ["NVIDIA_API_KEY"]= st.secrets.NVIDIA_API_KEY
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
