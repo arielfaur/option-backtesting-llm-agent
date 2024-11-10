@@ -1,6 +1,10 @@
 # ReAct Agent with Financial Knowledge for Option Backtesting
 *NVIDIA and LlamaIndex Developer Contest 2024 Submission Project*
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0J8JDj0CeS4
+" target="_blank"><img src="http://img.youtube.com/vi/0J8JDj0CeS4/0.jpg" 
+alt="Demo" width="480" height="360" border="10" /></a>
+
 ## Environment
 - Jupyter notebook
 - LlamaIndex framework
